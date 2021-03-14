@@ -3,7 +3,29 @@
  */
 package project;
 
+import java.util.ArrayList;
+
 public class App {
+    public static int search(ArrayList<Integer> list,int lowBound,boolean insideBounds,int highBound){
+        if(list==null){
+            throw new IllegalArgumentException();
+        }
+        else if(lowBound>highBound){
+            return -1;
+        }
+        else if(list.size()==0){
+            return -1;
+        }
+        int count=0;
+        for (int integer : list) {
+            if(integer>=lowBound && integer<=highBound)
+                count++;
+        }
+        if(insideBounds)
+            return count;
+        else
+            return list.size()-count;
+    }
     public String getGreeting() {
         return "Hello world.";
     }
