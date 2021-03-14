@@ -23,7 +23,7 @@ class AppTest {
         assertEquals(0,App.search(list,1,false,6));
     }
     @Test void listIsNull(){
-        ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
+        //ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
         assertThrows(IllegalArgumentException.class,()->App.search(null,1,true,3));
     }
     @Test void lowBoundIsHigherThanHighBound(){
