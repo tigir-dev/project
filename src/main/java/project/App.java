@@ -18,11 +18,9 @@ import spark.template.mustache.MustacheTemplateEngine;
 
 public class App {
     public static int howManyBetweenBounds(ArrayList<Integer> list,int lowBound,int insideOrOutsideBounds,int highBound){
-        if(list==null ||list.size()==0 || lowBound>highBound){
+        if(list==null || list.size()==0 || lowBound>highBound){
             return -1;
         }
-        else if(insideOrOutsideBounds!=0 || insideOrOutsideBounds!=1)
-            return -1;
         int count=0;
         for (int integer : list) {
             if(integer>=lowBound && integer<=highBound)
