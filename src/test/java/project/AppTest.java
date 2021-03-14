@@ -15,23 +15,23 @@ class AppTest {
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
     @Test void insideBounds(){
-        ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
-        assertEquals(5,App.search(list,1,true,5));
+        ArrayList<Integer> list=new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6));
+        assertEquals(5,App.search(list,1,1,5));
     }
     @Test void outsideBounds(){
-        ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
-        assertEquals(0,App.search(list,1,false,6));
+        ArrayList<Integer> list=new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6));
+        assertEquals(0,App.search(list,1,0,6));
     }
     @Test void listIsNull(){
-        //ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
-        assertThrows(IllegalArgumentException.class,()->App.search(null,1,true,3));
+        ArrayList<Integer> list=null;
+        assertEquals(-1,App.search(list,1,1,3));
     }
     @Test void lowBoundIsHigherThanHighBound(){
-        ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
-        assertEquals(-1,App.search(list, 6, true, 1));
+        ArrayList<Integer> list=new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6));
+        assertEquals(-1,App.search(list, 6, 1, 1));
     }
     @Test void listIsEmpty(){
-        ArrayList<Integer> list=new ArrayList<>();
-        assertEquals(-1,App.search(list, 1, true, 5));
+        ArrayList<Integer> list=new ArrayList<Integer>();
+        assertEquals(-1,App.search(list, 1, 1, 5));
     }
 }

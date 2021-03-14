@@ -17,9 +17,9 @@ import spark.template.mustache.MustacheTemplateEngine;
 
 
 public class App {
-    public static int search(ArrayList<Integer> list,int lowBound,int insideBounds,int highBound){
+    public static int howManyBetweenBounds(ArrayList<Integer> list,int lowBound,int insideBounds,int highBound){
         if(list==null){
-            throw new IllegalArgumentException();
+            return -1;
         }
         else if(lowBound>highBound){
             return -1;
@@ -73,7 +73,7 @@ public class App {
           }
           sc1.close();
           
-          int result = App.search(inputList, inputs[0],inputs[1],inputs[2]);
+          int result = App.howManyBetweenBounds(inputList, inputs[0],inputs[1],inputs[2]);
 
           Map<String, Integer> map = new HashMap<String, Integer>();
           map.put("result", result);

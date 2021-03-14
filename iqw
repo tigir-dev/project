@@ -1,0 +1,61 @@
+[33mcommit d95cfe796d64f07449dd855aa0ff18037f982d7e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 19:25:18 2021 +0300
+
+    integrated mustache and tested on localhost
+
+[33mcommit 2f467822240531454ae4e6cec9859aa0a3cbf85a[m[33m ([m[1;31morigin/feature[m[33m)[m
+Merge: 02e1166 6e741d8
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 17:58:49 2021 +0300
+
+    Merge branch 'main' of https://github.com/tigir-dev/project into feature
+
+[33mcommit 02e1166642e765220ca15df13dc6fc54704d38c8[m
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 17:58:07 2021 +0300
+
+    complete method and testcases
+
+[33mcommit 6e741d82488fc4d3ee00cfc60ac680a6545f04fd[m
+Author: tigir-dev <72361962+tigir-dev@users.noreply.github.com>
+Date:   Sun Mar 14 16:52:51 2021 +0300
+
+    new feature (#1)
+
+[33mcommit 2adfb63bde44133e3c08be07af13d9acff938f4c[m
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 16:50:26 2021 +0300
+
+    new feature
+
+[33mcommit b97b90a9c450eac3893d3254b44564d4a0b5281b[m
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 16:47:52 2021 +0300
+
+    Build status image  is added to readme file
+
+[33mcommit 10c0941cb1105d6fd7564a061c455e6c7d46df66[m
+Merge: 0330290 fb30bcb
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 16:42:07 2021 +0300
+
+    Merge branch 'main' of https://github.com/tigir-dev/project into main
+
+[33mcommit 033029076758daf072f9c1581df59300f0a2ffe7[m
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 16:37:47 2021 +0300
+
+    continuous integration is set
+
+[33mcommit fb30bcb0cccb84373dbfdab4b39309883fd77cd9[m
+Author: tigir-dev <72361962+tigir-dev@users.noreply.github.com>
+Date:   Sun Mar 14 16:33:09 2021 +0300
+
+    Update README.md
+
+[33mcommit a371fe25ae0555ebeabfaa9e6c55758d1d2f3c75[m
+Author: tigir-dev <aslanbm99@hotmail.com>
+Date:   Sun Mar 14 16:28:30 2021 +0300
+
+    project template
