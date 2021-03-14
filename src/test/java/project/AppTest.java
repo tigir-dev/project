@@ -34,8 +34,4 @@ class AppTest {
         ArrayList<Integer> list=new ArrayList<Integer>();
         assertEquals(-1,App.howManyBetweenBounds(list, 1, 1, 5));
     }
-    @test void boundDeciderIsUnexpected(){
-        ArrayList<Integer> list=new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6));
-        assertEquals(-1,App.howManyBetweenBounds(list, 6, 2, 1));
-    }
 }
